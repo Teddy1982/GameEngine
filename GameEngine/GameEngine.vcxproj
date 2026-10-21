@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="editor\enums.h" />
+    <ClInclude Include="editor\hierarchy.h" />
+    <ClInclude Include="editor\inspector.h" />
+    <ClInclude Include="editor\project.h" />
+    <ClInclude Include="editor\user_interface_globals.h" />
+    <ClInclude Include="gameobject\gameObject.h" />
+    <ClInclude Include="graphnodes\ActionNode.h" />
+    <ClInclude Include="graphnodes\DebugLogNode.h" />
+    <ClInclude Include="graphnodes\EventNode.h" />
+    <ClInclude Include="graphnodes\FaceAnimNode.h" />
+    <ClInclude Include="graphnodes\GraphEditor.h" />
+    <ClInclude Include="graphnodes\GraphNodeBase.h" />
+    <ClInclude Include="graphnodes\GraphNodeFactory.h" />
+    <ClInclude Include="graphnodes\HeadAnimNode.h" />
+    <ClInclude Include="graphnodes\InstanceMovementNode.h" />
+    <ClInclude Include="graphnodes\RandomNavigationNode.h" />
+    <ClInclude Include="graphnodes\RandomWaitNode.h" />
+    <ClInclude Include="graphnodes\RootNode.h" />
+    <ClInclude Include="graphnodes\SelectorNode.h" />
+    <ClInclude Include="graphnodes\SequenceNode.h" />
+    <ClInclude Include="graphnodes\TestNode.h" />
+    <ClInclude Include="graphnodes\WaitNode.h" />
+    <ClInclude Include="model\AssimpAnimChannel.h" />
+    <ClInclude Include="model\AssimpAnimClip.h" />
+    <ClInclude Include="model\AssimpBone.h" />
+    <ClInclude Include="model\AssimpInstance.h" />
+    <ClInclude Include="model\AssimpLevel.h" />
+    <ClInclude Include="model\AssimpMesh.h" />
+    <ClInclude Include="model\AssimpModel.h" />
+    <ClInclude Include="model\AssimpNode.h" />
+    <ClInclude Include="model\AssimpSettingsContainer.h" />
+    <ClInclude Include="model\BehaviorData.h" />
+    <ClInclude Include="model\BehaviorManager.h" />
+    <ClInclude Include="model\CoordArrowsModel.h" />
+    <ClInclude Include="model\InstanceSettings.h" />
+    <ClInclude Include="model\LevelSettings.h" />
+    <ClInclude Include="model\ModelSettings.h" />
+    <ClInclude Include="model\RotationArrowsModel.h" />
+    <ClInclude Include="model\ScaleArrowsModel.h" />
+    <ClInclude Include="model\SingleInstanceBehavior.h" />
+    <ClInclude Include="model\SkyboxModel.h" />
+    <ClInclude Include="model\SphereModel.h" />
+    <ClInclude Include="octree\BoundingBox3D.h" />
+    <ClInclude Include="octree\Octree.h" />
+    <ClInclude Include="octree\TriangleOctree.h" />
+    <ClInclude Include="tools\AABB.h" />
+    <ClInclude Include="tools\AudioManager.h" />
+    <ClInclude Include="tools\Camera.h" />
+    <ClInclude Include="tools\CameraSettings.h" />
+    <ClInclude Include="tools\IKSolver.h" />
+    <ClInclude Include="tools\Logger.h" />
+    <ClInclude Include="tools\PathFinder.h" />
+    <ClInclude Include="tools\Timer.h" />
+    <ClInclude Include="tools\Tools.h" />
+    <ClInclude Include="tools\YamlParser.h" />
+    <ClInclude Include="tools\YamlParserTypes.h" />
+    <ClInclude Include="vulkan\Callbacks.h" />
+    <ClInclude Include="vulkan\CommandBuffer.h" />
+    <ClInclude Include="vulkan\CommandPool.h" />
+    <ClInclude Include="vulkan\ComputePipeline.h" />
+    <ClInclude Include="vulkan\Enums.h" />
+    <ClInclude Include="vulkan\Framebuffer.h" />
+    <ClInclude Include="vulkan\GroundMeshPipeline.h" />
+    <ClInclude Include="vulkan\IndexBuffer.h" />
+    <ClInclude Include="vulkan\LinePipeline.h" />
+    <ClInclude Include="vulkan\ModelInstanceCamData.h" />
+    <ClInclude Include="vulkan\PipelineLayout.h" />
+    <ClInclude Include="vulkan\Renderpass.h" />
+    <ClInclude Include="vulkan\SecondaryRenderpass.h" />
+    <ClInclude Include="vulkan\SelectionFramebuffer.h" />
+    <ClInclude Include="vulkan\SelectionRenderpass.h" />
+    <ClInclude Include="vulkan\Shader.h" />
+    <ClInclude Include="vulkan\ShaderStorageBuffer.h" />
+    <ClInclude Include="vulkan\SkinningPipeline.h" />
+    <ClInclude Include="vulkan\SkyboxPipeline.h" />
+    <ClInclude Include="vulkan\SyncObjects.h" />
+    <ClInclude Include="vulkan\Texture.h" />
+    <ClInclude Include="vulkan\UniformBuffer.h" />
+    <ClInclude Include="vulkan\UserInterface.h" />
+    <ClInclude Include="vulkan\VertexBuffer.h" />
+    <ClInclude Include="vulkan\VkRenderData.h" />
+    <ClInclude Include="vulkan\VkRenderer.h" />
+    <ClInclude Include="window\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="editor\hierarchy.cpp" />
+    <ClCompile Include="editor\inspector.cpp" />
+    <ClCompile Include="editor\project.cpp" />
+    <ClCompile Include="editor\user_interface_globals.cpp" />
+    <ClCompile Include="graphnodes\ActionNode.cpp" />
+    <ClCompile Include="graphnodes\DebugLogNode.cpp" />
+    <ClCompile Include="graphnodes\EventNode.cpp" />
+    <ClCompile Include="graphnodes\FaceAnimNode.cpp" />
+    <ClCompile Include="graphnodes\GraphEditor.cpp" />
+    <ClCompile Include="graphnodes\GraphNodeBase.cpp" />
+    <ClCompile Include="graphnodes\GraphNodeFactory.cpp" />
+    <ClCompile Include="graphnodes\HeadAnimNode.cpp" />
+    <ClCompile Include="graphnodes\InstanceMovementNode.cpp" />
+    <ClCompile Include="graphnodes\RandomNavigationNode.cpp" />
+    <ClCompile Include="graphnodes\RandomWaitNode.cpp" />
+    <ClCompile Include="graphnodes\RootNode.cpp" />
+    <ClCompile Include="graphnodes\SelectorNode.cpp" />
+    <ClCompile Include="graphnodes\SequenceNode.cpp" />
+    <ClCompile Include="graphnodes\TestNode.cpp" />
+    <ClCompile Include="graphnodes\WaitNode.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="ImGuiFileDialog.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_impl_glfw.cpp" />
+    <ClCompile Include="imgui_impl_vulkan.cpp" />
+    <ClCompile Include="imgui_stdlib.cpp" />
+    <ClCompile Include="imgui_tables.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+    <ClCompile Include="imnodes.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="model\AssimpAnimChannel.cpp" />
+    <ClCompile Include="model\AssimpAnimClip.cpp" />
+    <ClCompile Include="model\AssimpBone.cpp" />
+    <ClCompile Include="model\AssimpInstance.cpp" />
+    <ClCompile Include="model\AssimpLevel.cpp" />
+    <ClCompile Include="model\AssimpMesh.cpp" />
+    <ClCompile Include="model\AssimpModel.cpp" />
+    <ClCompile Include="model\AssimpNode.cpp" />
+    <ClCompile Include="model\AssimpSettingsContainer.cpp" />
+    <ClCompile Include="model\BehaviorManager.cpp" />
+    <ClCompile Include="model\CoordArrowsModel.cpp" />
+    <ClCompile Include="model\RotationArrowsModel.cpp" />
+    <ClCompile Include="model\ScaleArrowsModel.cpp" />
+    <ClCompile Include="model\SingleInstanceBehavior.cpp" />
+    <ClCompile Include="model\SkyboxModel.cpp" />
+    <ClCompile Include="model\SphereModel.cpp" />
+    <ClCompile Include="octree\BoundingBox3D.cpp" />
+    <ClCompile Include="octree\Octree.cpp" />
+    <ClCompile Include="octree\TriangleOctree.cpp" />
+    <ClCompile Include="tools\AABB.cpp" />
+    <ClCompile Include="tools\AudioManager.cpp" />
+    <ClCompile Include="tools\Camera.cpp" />
+    <ClCompile Include="tools\IKSolver.cpp" />
+    <ClCompile Include="tools\Logger.cpp" />
+    <ClCompile Include="tools\PathFinder.cpp" />
+    <ClCompile Include="tools\Timer.cpp" />
+    <ClCompile Include="tools\Tools.cpp" />
+    <ClCompile Include="tools\YamlParser.cpp" />
+    <ClCompile Include="VkBootstrap.cpp" />
+    <ClCompile Include="vulkan\CommandBuffer.cpp" />
+    <ClCompile Include="vulkan\CommandPool.cpp" />
+    <ClCompile Include="vulkan\ComputePipeline.cpp" />
+    <ClCompile Include="vulkan\Framebuffer.cpp" />
+    <ClCompile Include="vulkan\GroundMeshPipeline.cpp" />
+    <ClCompile Include="vulkan\IndexBuffer.cpp" />
+    <ClCompile Include="vulkan\LinePipeline.cpp" />
+    <ClCompile Include="vulkan\PipelineLayout.cpp" />
+    <ClCompile Include="vulkan\Renderpass.cpp" />
+    <ClCompile Include="vulkan\SecondaryRenderpass.cpp" />
+    <ClCompile Include="vulkan\SelectionFramebuffer.cpp" />
+    <ClCompile Include="vulkan\SelectionRenderpass.cpp" />
+    <ClCompile Include="vulkan\Shader.cpp" />
+    <ClCompile Include="vulkan\ShaderStorageBuffer.cpp" />
+    <ClCompile Include="vulkan\SkinningPipeline.cpp" />
+    <ClCompile Include="vulkan\SkyboxPipeline.cpp" />
+    <ClCompile Include="vulkan\SyncObjects.cpp" />
+    <ClCompile Include="vulkan\Texture.cpp" />
+    <ClCompile Include="vulkan\UniformBuffer.cpp" />
+    <ClCompile Include="vulkan\UserInterface.cpp" />
+    <ClCompile Include="vulkan\VertexBuffer.cpp" />
+    <ClCompile Include="vulkan\VkRenderer.cpp" />
+    <ClCompile Include="window\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\assimp.frag.spv" />
+    <None Include="shader\assimp.vert.spv" />
+    <None Include="shader\assimp_groundmesh.frag.spv" />
+    <None Include="shader\assimp_groundmesh.vert.spv" />
+    <None Include="shader\assimp_instance_bounding_spheres.comp" />
+    <None Include="shader\assimp_instance_bounding_spheres.comp.spv" />
+    <None Include="shader\assimp_instance_headmove_transform.comp" />
+    <None Include="shader\assimp_instance_headmove_transform.comp.spv" />
+    <None Include="shader\assimp_instance_matrix_mult.comp.spv" />
+    <None Include="shader\assimp_instance_transform.comp.spv" />
+    <None Include="shader\assimp_level.frag.spv" />
+    <None Include="shader\assimp_level.vert.spv" />
+    <None Include="shader\assimp_selection.frag.spv" />
+    <None Include="shader\assimp_selection.vert.spv" />
+    <None Include="shader\assimp_skinning.frag.spv" />
+    <None Include="shader\assimp_skinning.vert" />
+    <None Include="shader\assimp_skinning.vert.spv" />
+    <None Include="shader\assimp_skinning_morph.frag.spv" />
+    <None Include="shader\assimp_skinning_morph.vert" />
+    <None Include="shader\assimp_skinning_morph.vert.spv" />
+    <None Include="shader\assimp_skinning_morph_selection.frag.spv" />
+    <None Include="shader\assimp_skinning_morph_selection.vert" />
+    <None Include="shader\assimp_skinning_morph_selection.vert.spv" />
+    <None Include="shader\assimp_skinning_selection.frag.spv" />
+    <None Include="shader\assimp_skinning_selection.vert" />
+    <None Include="shader\assimp_skinning_selection.vert.spv" />
+    <None Include="shader\line.frag.spv" />
+    <None Include="shader\line.vert" />
+    <None Include="shader\line.vert.spv" />
+    <None Include="shader\skybox.frag.spv" />
+    <None Include="shader\skybox.vert.spv" />
+    <None Include="shader\sphere_instance.frag.spv" />
+    <None Include="shader\sphere_instance.vert.spv" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{444cbef2-191c-4d85-87ee-6c998416c001}</ProjectGuid>
+    <RootNamespace>GameEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2_mixer-2.0.4\include;C:\VulkanSDK\1.4.309.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\lib;C:\VulkanSDK\1.4.309.0\Lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\lib\x64;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2_mixer-2.0.4\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2_mixer-2.0.4\include;C:\VulkanSDK\1.4.309.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\lib;C:\VulkanSDK\1.4.309.0\Lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\lib\x64;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\SDL2\SDL2_mixer-2.0.4\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2_mixer-2.0.4\include;C:\VulkanSDK\1.4.309.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\lib;C:\VulkanSDK\1.4.309.0\Lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\lib\x64;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2_mixer-2.0.4\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2_mixer-2.0.4\include;C:\VulkanSDK\1.4.309.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\glfw\lib;C:\VulkanSDK\1.4.309.0\Lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\yaml-cpp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\assimp\lib;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\libs\SDL2\SDL2-2.0.9\lib\x64;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\SDL2\SDL2_mixer-2.0.4\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GLM_ENABLE_EXPERIMENTAL;YAML_CPP_STATIC_DEFINE;IMGUI_DEFINE_MATH_OPERATORS;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\imgui;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vkb;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vma;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc143-mtd.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;vulkan-1.lib;yaml-cppd.lib;SDL2.lib;SDL2main.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GLM_ENABLE_EXPERIMENTAL;YAML_CPP_STATIC_DEFINE;IMGUI_DEFINE_MATH_OPERATORS;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vkb;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vma;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\imgui;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc143-mtd.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;vulkan-1.lib;yaml-cppd.lib;SDL2.lib;SDL2main.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GLM_ENABLE_EXPERIMENTAL;YAML_CPP_STATIC_DEFINE;IMGUI_DEFINE_MATH_OPERATORS;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\imgui;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\include;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vkb;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vma;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc143-mtd.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;vulkan-1.lib;yaml-cppd.lib;SDL2.lib;SDL2main.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GLM_ENABLE_EXPERIMENTAL;YAML_CPP_STATIC_DEFINE;IMGUI_DEFINE_MATH_OPERATORS;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vkb;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\vma;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\imgui;D:\Programmieren\VisualC++Progs\GameEngine\GameEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>assimp-vc143-mtd.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;opengl32.lib;vulkan-1.lib;yaml-cppd.lib;SDL2.lib;SDL2main.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
