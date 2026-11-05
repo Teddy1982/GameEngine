@@ -63,458 +63,260 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="graphnodes\ActionNode.h">
+    <ClInclude Include="src\editor\Enums.h">
+      <Filter>Headerdateien\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\Hierarchy.h">
+      <Filter>Headerdateien\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\Inspector.h">
+      <Filter>Headerdateien\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\Project.h">
+      <Filter>Headerdateien\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\User_interface_globals.h">
+      <Filter>Headerdateien\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameobject\GameObject.h">
+      <Filter>Headerdateien\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphnodes\ActionNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\DebugLogNode.h">
+    <ClInclude Include="src\graphnodes\DebugLogNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\EventNode.h">
+    <ClInclude Include="src\graphnodes\EventNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\FaceAnimNode.h">
+    <ClInclude Include="src\graphnodes\FaceAnimNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\GraphEditor.h">
+    <ClInclude Include="src\graphnodes\GraphEditor.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\GraphNodeBase.h">
+    <ClInclude Include="src\graphnodes\GraphNodeBase.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\GraphNodeFactory.h">
+    <ClInclude Include="src\graphnodes\GraphNodeFactory.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\HeadAnimNode.h">
+    <ClInclude Include="src\graphnodes\HeadAnimNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\InstanceMovementNode.h">
+    <ClInclude Include="src\graphnodes\InstanceMovementNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\RandomNavigationNode.h">
+    <ClInclude Include="src\graphnodes\RandomNavigationNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\RandomWaitNode.h">
+    <ClInclude Include="src\graphnodes\RandomWaitNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\RootNode.h">
+    <ClInclude Include="src\graphnodes\RootNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\SelectorNode.h">
+    <ClInclude Include="src\graphnodes\SelectorNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\SequenceNode.h">
+    <ClInclude Include="src\graphnodes\SequenceNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\TestNode.h">
+    <ClInclude Include="src\graphnodes\TestNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="graphnodes\WaitNode.h">
+    <ClInclude Include="src\graphnodes\WaitNode.h">
       <Filter>Headerdateien\graphnodes</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpAnimChannel.h">
+    <ClInclude Include="src\model\AssimpAnimChannel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpAnimClip.h">
+    <ClInclude Include="src\model\AssimpAnimClip.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpBone.h">
+    <ClInclude Include="src\model\AssimpBone.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpInstance.h">
+    <ClInclude Include="src\model\AssimpInstance.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpLevel.h">
+    <ClInclude Include="src\model\AssimpLevel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpMesh.h">
+    <ClInclude Include="src\model\AssimpMesh.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpModel.h">
+    <ClInclude Include="src\model\AssimpModel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpNode.h">
+    <ClInclude Include="src\model\AssimpNode.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\AssimpSettingsContainer.h">
+    <ClInclude Include="src\model\AssimpSettingsContainer.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\BehaviorData.h">
+    <ClInclude Include="src\model\BehaviorData.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\BehaviorManager.h">
+    <ClInclude Include="src\model\BehaviorManager.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\CoordArrowsModel.h">
+    <ClInclude Include="src\model\CoordArrowsModel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\InstanceSettings.h">
+    <ClInclude Include="src\model\InstanceSettings.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\LevelSettings.h">
+    <ClInclude Include="src\model\LevelSettings.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\ModelSettings.h">
+    <ClInclude Include="src\model\ModelSettings.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\RotationArrowsModel.h">
+    <ClInclude Include="src\model\RotationArrowsModel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\ScaleArrowsModel.h">
+    <ClInclude Include="src\model\ScaleArrowsModel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\SingleInstanceBehavior.h">
+    <ClInclude Include="src\model\SingleInstanceBehavior.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\SkyboxModel.h">
+    <ClInclude Include="src\model\SkyboxModel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\SphereModel.h">
+    <ClInclude Include="src\model\SphereModel.h">
       <Filter>Headerdateien\model</Filter>
     </ClInclude>
-    <ClInclude Include="octree\BoundingBox3D.h">
+    <ClInclude Include="src\octree\BoundingBox3D.h">
       <Filter>Headerdateien\octree</Filter>
     </ClInclude>
-    <ClInclude Include="octree\Octree.h">
+    <ClInclude Include="src\octree\Octree.h">
       <Filter>Headerdateien\octree</Filter>
     </ClInclude>
-    <ClInclude Include="octree\TriangleOctree.h">
+    <ClInclude Include="src\octree\TriangleOctree.h">
       <Filter>Headerdateien\octree</Filter>
     </ClInclude>
-    <ClInclude Include="tools\AABB.h">
+    <ClInclude Include="src\tools\AABB.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\AudioManager.h">
+    <ClInclude Include="src\tools\AudioManager.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\Camera.h">
+    <ClInclude Include="src\tools\Camera.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\CameraSettings.h">
+    <ClInclude Include="src\tools\CameraSettings.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\IKSolver.h">
+    <ClInclude Include="src\tools\IKSolver.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\Logger.h">
+    <ClInclude Include="src\tools\Logger.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\PathFinder.h">
+    <ClInclude Include="src\tools\PathFinder.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\Timer.h">
+    <ClInclude Include="src\tools\Timer.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\Tools.h">
+    <ClInclude Include="src\tools\Tools.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\YamlParser.h">
+    <ClInclude Include="src\tools\YamlParser.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="tools\YamlParserTypes.h">
+    <ClInclude Include="src\tools\YamlParserTypes.h">
       <Filter>Headerdateien\tools</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\Callbacks.h">
+    <ClInclude Include="src\vulkan\Callbacks.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\CommandBuffer.h">
+    <ClInclude Include="src\vulkan\CommandBuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\CommandPool.h">
+    <ClInclude Include="src\vulkan\CommandPool.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\ComputePipeline.h">
+    <ClInclude Include="src\vulkan\ComputePipeline.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\Enums.h">
+    <ClInclude Include="src\vulkan\Enums.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\Framebuffer.h">
+    <ClInclude Include="src\vulkan\Framebuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\GroundMeshPipeline.h">
+    <ClInclude Include="src\vulkan\GroundMeshPipeline.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\IndexBuffer.h">
+    <ClInclude Include="src\vulkan\IndexBuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\LinePipeline.h">
+    <ClInclude Include="src\vulkan\LinePipeline.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\ModelInstanceCamData.h">
+    <ClInclude Include="src\vulkan\ModelInstanceCamData.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\PipelineLayout.h">
+    <ClInclude Include="src\vulkan\PipelineLayout.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\Renderpass.h">
+    <ClInclude Include="src\vulkan\Renderpass.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\SecondaryRenderpass.h">
+    <ClInclude Include="src\vulkan\SecondaryRenderpass.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\SelectionFramebuffer.h">
+    <ClInclude Include="src\vulkan\SelectionFramebuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\SelectionRenderpass.h">
+    <ClInclude Include="src\vulkan\SelectionRenderpass.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\Shader.h">
+    <ClInclude Include="src\vulkan\Shader.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\ShaderStorageBuffer.h">
+    <ClInclude Include="src\vulkan\ShaderStorageBuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\SkinningPipeline.h">
+    <ClInclude Include="src\vulkan\SkinningPipeline.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\SkyboxPipeline.h">
+    <ClInclude Include="src\vulkan\SkyboxPipeline.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\SyncObjects.h">
+    <ClInclude Include="src\vulkan\SyncObjects.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\Texture.h">
+    <ClInclude Include="src\vulkan\Texture.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\UniformBuffer.h">
+    <ClInclude Include="src\vulkan\UniformBuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\UserInterface.h">
+    <ClInclude Include="src\vulkan\UserInterface.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\VertexBuffer.h">
+    <ClInclude Include="src\vulkan\VertexBuffer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\VkRenderData.h">
+    <ClInclude Include="src\vulkan\VkRenderData.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="vulkan\VkRenderer.h">
+    <ClInclude Include="src\vulkan\VkRenderer.h">
       <Filter>Headerdateien\vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="window\Window.h">
+    <ClInclude Include="src\window\Window.h">
       <Filter>Headerdateien\window</Filter>
     </ClInclude>
-    <ClInclude Include="editor\enums.h">
-      <Filter>Headerdateien\editor</Filter>
-    </ClInclude>
-    <ClInclude Include="editor\hierarchy.h">
-      <Filter>Headerdateien\editor</Filter>
-    </ClInclude>
-    <ClInclude Include="editor\inspector.h">
-      <Filter>Headerdateien\editor</Filter>
-    </ClInclude>
-    <ClInclude Include="editor\project.h">
-      <Filter>Headerdateien\editor</Filter>
-    </ClInclude>
-    <ClInclude Include="editor\user_interface_globals.h">
-      <Filter>Headerdateien\editor</Filter>
-    </ClInclude>
-    <ClInclude Include="gameobject\gameObject.h">
-      <Filter>Headerdateien\gameobject</Filter>
+    <ClInclude Include="src\tools\Controls.h">
+      <Filter>Headerdateien\tools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="graphnodes\ActionNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\DebugLogNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\EventNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\FaceAnimNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\GraphEditor.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\GraphNodeBase.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\GraphNodeFactory.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\HeadAnimNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\InstanceMovementNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\RandomNavigationNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\RandomWaitNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\RootNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\SelectorNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\SequenceNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\TestNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="graphnodes\WaitNode.cpp">
-      <Filter>Quelldateien\graphnodes</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpAnimChannel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpAnimClip.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpBone.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpInstance.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpLevel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpMesh.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpModel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpNode.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\AssimpSettingsContainer.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\BehaviorManager.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\CoordArrowsModel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\RotationArrowsModel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\ScaleArrowsModel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\SingleInstanceBehavior.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\SkyboxModel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\SphereModel.cpp">
-      <Filter>Quelldateien\model</Filter>
-    </ClCompile>
-    <ClCompile Include="octree\BoundingBox3D.cpp">
-      <Filter>Quelldateien\octree</Filter>
-    </ClCompile>
-    <ClCompile Include="octree\Octree.cpp">
-      <Filter>Quelldateien\octree</Filter>
-    </ClCompile>
-    <ClCompile Include="octree\TriangleOctree.cpp">
-      <Filter>Quelldateien\octree</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\AABB.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\AudioManager.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\Camera.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\IKSolver.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\Logger.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\PathFinder.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\Timer.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\Tools.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\YamlParser.cpp">
-      <Filter>Quelldateien\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\CommandBuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\CommandPool.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\ComputePipeline.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\Framebuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\GroundMeshPipeline.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\IndexBuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\LinePipeline.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\PipelineLayout.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\Renderpass.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\SecondaryRenderpass.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\SelectionFramebuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\SelectionRenderpass.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\Shader.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\ShaderStorageBuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\SkinningPipeline.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\SkyboxPipeline.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\SyncObjects.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\Texture.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\UniformBuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\UserInterface.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\VertexBuffer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="vulkan\VkRenderer.cpp">
-      <Filter>Quelldateien\vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="window\Window.cpp">
-      <Filter>Quelldateien\window</Filter>
-    </ClCompile>
     <ClCompile Include="imgui.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -548,17 +350,221 @@
     <ClCompile Include="VkBootstrap.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="editor\hierarchy.cpp">
+    <ClCompile Include="src\editor\Hierarchy.cpp">
       <Filter>Quelldateien\editor</Filter>
     </ClCompile>
-    <ClCompile Include="editor\inspector.cpp">
+    <ClCompile Include="src\editor\Inspector.cpp">
       <Filter>Quelldateien\editor</Filter>
     </ClCompile>
-    <ClCompile Include="editor\project.cpp">
+    <ClCompile Include="src\editor\Project.cpp">
       <Filter>Quelldateien\editor</Filter>
     </ClCompile>
-    <ClCompile Include="editor\user_interface_globals.cpp">
+    <ClCompile Include="src\editor\User_interface_globals.cpp">
       <Filter>Quelldateien\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\ActionNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\DebugLogNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\EventNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\FaceAnimNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\GraphEditor.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\GraphNodeBase.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\GraphNodeFactory.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\HeadAnimNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\InstanceMovementNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\RandomNavigationNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\RandomWaitNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\RootNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\SelectorNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\SequenceNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\TestNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphnodes\WaitNode.cpp">
+      <Filter>Quelldateien\graphnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpAnimChannel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpAnimClip.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpBone.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpInstance.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpLevel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpMesh.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpNode.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\AssimpSettingsContainer.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\BehaviorManager.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\CoordArrowsModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\RotationArrowsModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\ScaleArrowsModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\SingleInstanceBehavior.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\SkyboxModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\SphereModel.cpp">
+      <Filter>Quelldateien\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\octree\BoundingBox3D.cpp">
+      <Filter>Quelldateien\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\octree\Octree.cpp">
+      <Filter>Quelldateien\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\octree\TriangleOctree.cpp">
+      <Filter>Quelldateien\octree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\AABB.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\AudioManager.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Camera.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\IKSolver.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Logger.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\PathFinder.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Timer.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Tools.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\YamlParser.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\CommandBuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\CommandPool.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\ComputePipeline.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Framebuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\GroundMeshPipeline.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\IndexBuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\LinePipeline.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\PipelineLayout.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Renderpass.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SecondaryRenderpass.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SelectionFramebuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SelectionRenderpass.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Shader.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\ShaderStorageBuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SkinningPipeline.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SkyboxPipeline.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\SyncObjects.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\Texture.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\UniformBuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\UserInterface.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VertexBuffer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VkRenderer.cpp">
+      <Filter>Quelldateien\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Window.cpp">
+      <Filter>Quelldateien\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Controls.cpp">
+      <Filter>Quelldateien\tools</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -659,6 +665,15 @@
       <Filter>shader</Filter>
     </None>
     <None Include="shader\assimp_instance_headmove_transform.comp">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\line.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\sphere_instance.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\sphere_instance.vert">
       <Filter>shader</Filter>
     </None>
   </ItemGroup>

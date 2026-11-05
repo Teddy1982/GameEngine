@@ -1,8 +1,8 @@
 #include <memory>
 #include <string>
 
-#include "../window/Window.h"
-#include "../tools/Logger.h"
+#include "src/window/Window.h"
+#include "src/tools/Logger.h"
 
 int main(int argc, char *argv[]) {
 

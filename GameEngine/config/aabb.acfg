@@ -1,0 +1,144 @@
+# Application viewer config file
+version: 10.0
+
+settings:
+  selected-model: 2
+  selected-instance: 2
+  selected-camera: 0
+  selected-level: 0
+  highlight-selection: false
+  collision-enabled: 0
+  interaction-enabled: false
+  interaction-min-range: 1.5
+  interaction-max-range: 10
+  interaction-fov: 45
+  gravity-enabled: false
+  level-collision-ground-slope: 0
+  level-collision-max-stairstep-height: 1
+  inverse-kinematics-enabled: false
+  inverse-kinematics-iterations: 10
+  navigation-enabled: false
+  skybox-enabled: false
+  fog-density: 0
+  light-source-angle-east-west: 40
+  light-source-angle-north-south: 40
+  light-source-intensity: 1
+  light-source-color: [1, 1, 1]
+  time-of-day-enabled: false
+  time-of-day-scaling: 10
+  time-of-day-preset: 7
+
+cameras:
+  - camera-name: FreeCam
+    position: [5, 5, 5]
+    view-azimuth: 310
+    view-elevation: -15
+    camera-type: 0
+    camera-projection: 0
+    field-of-view: 90
+
+models:
+  - model-name: Voxel.glb
+    model-file: ./projects/demo/Assets/Models/voxel/Voxel.glb
+    is-nav-target: false
+    bounding-sphere-adjustments:
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+    forward-speed-factor: 4
+    aabb-min: [0, 2, 0]
+    aabb-max: [0.5, 3.5, 1]
+  - model-name: Woman.gltf
+    model-file: ./projects/demo/Assets/Models/woman/Woman.gltf
+    is-nav-target: false
+    bounding-sphere-adjustments:
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+      - [0, 0, 0, 1]
+    forward-speed-factor: 4
+
+node-trees:
+  []
+
+instances:
+  - model-file: Voxel.glb
+    position: [0, 0, 0]
+    rotation: [0, 0, 0]
+    scale: 1
+    swap-axes: false
+    1st-anim-clip-number: 0
+    2nd-anim-clip-number: 0
+    anim-clip-speed: 1
+    anim-blend-factor: 0
+    enable-navigation: false
+    path-target-instance: -1
+  - model-file: Woman.gltf
+    position: [-3.6351333, 0, 5.5970716]
+    rotation: [0, 0, 0]
+    scale: 1
+    swap-axes: false
+    1st-anim-clip-number: 0
+    2nd-anim-clip-number: 0
+    anim-clip-speed: 1
+    anim-blend-factor: 0
+    enable-navigation: false
+    path-target-instance: -1
